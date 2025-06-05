@@ -1,1 +1,0 @@
-#Paris sucked!
