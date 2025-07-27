@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Wrong Pooja
+title: Pondering with Pooja
 email: [ppat965@aucklanduni.ac.nz]
 description: >- # this means to ignore newlines until "baseurl:"
   Hi I am Pooja, just your average woman living in NZ, follow me as I document my various interests from books, baking, some coding projects and a tiny bit of travelling. I may not be concise but I am definitely not boring!
