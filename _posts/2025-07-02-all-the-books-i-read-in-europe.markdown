@@ -2,29 +2,40 @@
 layout: post
 title: "All the books I read in Europe"
 date: 2025-07-02 20:42:58 +1200
-categories: jekyll update
+categories: Reading
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I read a mix of different books while I was in Europe I was hoping to read books that were set in the places I was going to as well as books that I could find on libby and were also on my to read list. A lot of the books I chose were taken by Jack Edward's youtube video of Books that he would give six stars if he could.
 
-Jekyll requires blog post files to be named according to the following format:
+## The Love Hypothesis by Ali Hazelwood
 
-`YEAR-MONTH-DAY-title.MARKUP`
+I chose this book because my sister had it and so I could read it on the plane. She loved it as a doctoral student and found some of the struggles the main character Olive went through relatable. I knew it was a Reylo fanfiction set in university between a doctoral student and a professor. It was ok, I don’t enjoy the big man, petite woman trope and hate the constant height and blue eyes mentioned. The book also has the main character pining for several years which I also dislike, my thing is always “why not make a move and get it over with?” I can see the appeal it just is not appealing to me.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## People we meet on Vacation by Emily Henry
 
-Jekyll also offers powerful support for code snippets:
+Having read Book Lovers which I loved, I had high hopes for this one. Unfortunately, I was not impressed. This book is about two friends who spent every summer for ten years holidaying together until one year they stopped. They decide for old times’ sake to go on one last holiday. Are there unrequited feelings? Yes. Will they not address them till the very end? Also, yes. I normally don’t think about will these characters break up after the book ends but for these two, I couldn’t suspend that belief. One is a travel blogger who wants to escape her hometown where she was bullied for being different. While literally being described as Sabrina Carpenter. Her friend loves his hometown and works as a respectable teacher at her old high school. I don’t see the compatibility I did believe in their love though. One thing I did take from this book was she got to confront her high school bullies, and it didn’t go how she thought it would. It made me evaluate my relationship to my bullies from school. I realised I did not have any ill will towards them or resentment so why do I still let their words define how I see myself? Definitely some food for thought.
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## Last Summer in the City by Gianfranco Calligarich
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Sometimes you read a book and just know that you’re not the audience. I can see men being moved by this, but it was not soul shattering to me. The book follows our protagonist on his last summer in Rome. Reading this after just leaving Rome, the novel really has an appreciation to Rome the setting. It brings a nostalgia to the place and the places mentioned in the city did feel like you were being whisked around as well. Throughout the book he is searching for feeling as nothing excites him after he lost his job. His friends he doesn’t like, the girl he loves he can’t please, he is adrift with his only anchor being the city but that too is sinking. It is a sad, short, and poetic in a way. It has a melancholy to it is what I mean.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## Boulder by Eva Balatazar
+
+Boulder follows a woman (nicknamed Boulder) who works as a ship cook and how when she meets Sansha she sacrifices pieces of her soul to be loved by her. It is very introspective, I don’t want to spoil it, but I think the books strength is the writing, the language used. It does feel sad about what is happening to Boulder. Like she is nicknamed Boulder as being an immovable object, but we constantly see her moving or sacrificing what she wants for Sansha. Eva has a way with words like the metaphors used they paint vivid images in your head. This book is part of a trilogy, and I will definitely read the others when I find them.
+
+## Quicksand by Nella Larsen
+
+Nella Larsen only wrote two novels but what novels they were. So, some of the books I chose to read is a mixture of what was on my Goodreads list and what I will find in the library or Libby currently. Quicksand follows the story of a biracial woman brought up by her white side in 1920s. We basically follow her as she tries on a different lifestyle but quickly becomes discontent with all of them. Unfortunately, she reaches a point where she can’t escape. It is the story of someone searching for meaning, purpose, a sense of community but at the slightest discomfort leaving to start again. There is also something to say that although she changes her surroundings, she doesn’t change her mindset so falls back into the same pattern. Like quicksand.
+
+## Passing by Nella Larsen
+
+Passing is about two light skin Black women, and they know each other as children. One, Clare, chooses to “pass” as white marrying a white husband affectively burying her black side by hiding her ethnicity from her husband. In 1920s America this is incredibly dangerous the only person who realises this is our protagonist, Irene. She is put in a strange predicament as Clare uses her to masquerade in her Blackness. This is a story that shows that hiding one’s true self only hurts you in the end. You feel for these two women and at the climax when a tragedy occurs you ask yourself was it avoidable and if so, how?
+
+## Evenings and Weekends by Oisin Mckenna
+
+Evenings and Weekends follows a series of characters loosely tied together through being friends, acquaintances, etc. The characters navigate their lives in London over a week when a whale is stuck in the Thames. Now I think this novel details how a shared experience is like in the 2010s, early 2020s. With the discourse online and between the characters. There is also a heatwave in London. Reading this book in London during a heatwave was an immersive experience. The author also puts into words how young people view being in a city which I found relatable. It is constantly moving making you feel part of something. Hence, we see people in moving in for jobs and universities but then having to leave because it is just not sustainable. Due to friend break-ups, relationships, having kids or leases expiring.
+One thing that irks some people is how many times someone is supposed to reveal something to another person, but they just don’t. All because of how they will take the news. Now as someone who also avoids conversations until I can’t this was relatable. Another message I think I should be taken away from this book is people don’t care about you. Like if you walked through high school constantly worried about how you were perceived. Don’t still let it define you. People care way more about how they come across then about others. So be true to yourself.
+
+## The Death of Vivek Oji by Akwaeke Emezi
+
+This book follows the life and death of Vivek Oji and how it affects his friends, cousin and parents. Spoilers this is set in Nigeria and Vivek is a queer who prefers both masculine and feminine gender roles. He/she unfortunately cannot be their true self now I personally didn’t know anything about this book. But I am kind of tired of books where the reveal is that the characters are queer like it is a plot twist rather than an identity. I want to read more books about the characters identities being less the focal point and more about what they’re doing. For some reason the most thought provoking part was when the parents learn about Vivek’s death. How they realised they did not know her/him. Then the realisation that their mindset was similar to his murderers and how with his death there is no resolution.

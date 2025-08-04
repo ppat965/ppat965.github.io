@@ -28,7 +28,7 @@ twitter_username: thewrongpooja
 github_username: ppat965
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
 # Exclude from processing.
