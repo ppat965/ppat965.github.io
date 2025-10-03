@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: About
+  link: /about
+- name: Blog
+  link: /posts/
+- name: Experiences
+  link: /categories/Experiences/
+- name: Books
+  link: /categories/Books/
+- name: Projects
+  link: /categories/Projects/
+- name: Reflections
+  link: /categories/reflections/

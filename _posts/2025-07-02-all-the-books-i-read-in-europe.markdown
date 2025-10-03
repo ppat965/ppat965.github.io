@@ -2,7 +2,7 @@
 layout: post
 title: "All the books I read in Europe"
 date: 2025-07-02 20:42:58 +1200
-categories: Reading
+categories: reading
 ---
 
 I read a mix of different books while I was in Europe I was hoping to read books that were set in the places I was going to as well as books that I could find on libby and were also on my to read list. A lot of the books I chose were taken by Jack Edward's youtube video of Books that he would give six stars if he could.
@@ -38,4 +38,4 @@ One thing that irks some people is how many times someone is supposed to reveal 
 
 ## The Death of Vivek Oji by Akwaeke Emezi
 
-This book follows the life and death of Vivek Oji and how it affects his friends, cousin and parents. Spoilers this is set in Nigeria and Vivek is a queer who prefers both masculine and feminine gender roles. He/she unfortunately cannot be their true self now I personally didn’t know anything about this book. But I am kind of tired of books where the reveal is that the characters are queer like it is a plot twist rather than an identity. I want to read more books about the characters identities being less the focal point and more about what they’re doing. For some reason the most thought provoking part was when the parents learn about Vivek’s death. How they realised they did not know her/him. Then the realisation that their mindset was similar to his murderers and how with his death there is no resolution.
+This book follows the life and death of Vivek Oji and how it affects his friends, cousin and parents. Spoilers this is set in Nigeria and Vivek is a queer who prefers both masculine and feminine gender roles. He/she unfortunately cannot be their true self now I personally didn’t know anything about this book. But I am kind of tired of books where the reveal is that the characters are queer like it is a plot twist rather than an identity. I want to read more books about the characters identities being less the focal point and more about what they’re experiences. For some reason the most thought provoking part was when the parents learn about Vivek’s death. How they realised they did not know her/him. Then the realisation that their mindset was similar to his murderers and how with his death there is no resolution.
