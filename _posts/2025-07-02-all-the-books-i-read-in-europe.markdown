@@ -2,7 +2,7 @@
 layout: post
 title: "All the books I read in Europe"
 date: 2025-07-02 20:42:58 +1200
-categories: reading
+categories: books
 ---
 
 I read a mix of different books while I was in Europe I was hoping to read books that were set in the places I was going to as well as books that I could find on libby and were also on my to read list. A lot of the books I chose were taken by Jack Edward's youtube video of Books that he would give six stars if he could.

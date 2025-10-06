@@ -1,4 +1,5 @@
 ---
+layout: category
 short_name: projects
 name: Projects
 ---

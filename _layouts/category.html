@@ -3,4 +3,17 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-<div class="category-content">{{ content }}</div>
+
+{{ content }}
+
+<h2>Posts</h2>
+<ul>
+  {%- assign posts_in_category = site.posts | where: "categories",
+  page.short_name | sort: "date" | reverse -%} {%- for post in posts_in_category
+  -%}
+  <li>
+    <a href="{{ post.url | relative_url }}"> {{ post.title }} </a> –
+    <span>{{ post.date | date_to_long_string: "ordinal" }}</span>
+  </li>
+  {%- endfor -%}
+</ul>

@@ -5,10 +5,10 @@
 - name: Blog
   link: /posts/
 - name: Experiences
-  link: /categories/Experiences/
+  link: /categories/experiences/
 - name: Books
-  link: /categories/Books/
+  link: /categories/books/
 - name: Projects
-  link: /categories/Projects/
+  link: /categories/projects/
 - name: Reflections
   link: /categories/reflections/
