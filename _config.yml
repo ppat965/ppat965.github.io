@@ -32,6 +32,9 @@ collections:
     permalink: /categories/:name/
 
 # Build settings
+sass:
+  sass_dir: _sass
+  style: compressed
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

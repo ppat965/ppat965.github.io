@@ -1,12 +1,19 @@
 <div class="header">
-<h1>
-  <img src="{{ 'assets/images/logo.png'| relative_url }}"  alt="logo" width="40" height="40">
-   {{site.title}}</h1>
-   <nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %} style="color: red;" {% endif %}>
-      {{ item.name }}
-    </a>
-  {% endfor %}
-   </nav>
+  <div class="top-part">
+    <img
+      src="{{ 'assets/images/logo.png'| relative_url }}"
+      alt="logo"
+      height="60px"
+      class="site-logo-head"
+    />
+    <h1 class="site-title">{{ site.title }}</h1>
+  </div>
+  <ul class="nav">
+    <li><a href="/about">About</a></li>
+    <li><a href="/categories/experiences/">Experiences</a></li>
+    <li><a href="/categories/books/">Books</a></li>
+    <li><a href="/categories/projects/">Projects</a></li>
+    <li><a href="/categories/reflections/">Reflections</a></li>
+  </ul>
+  <hr class="style-horizontal" />
 </div>

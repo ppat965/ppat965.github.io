@@ -2,17 +2,17 @@
 layout: default
 ---
 
+<h1>{{ page.title }}</h1>
+<p class="post-date">
+  {{ page.date | date_to_long_string: "ordinal" }} - {{ site.author }}
+</p>
+
 <article class="post">
   {% if page.image %}
   <div class="post-image">
     <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
   </div>
   {% endif %}
-
-  <h1>{{ page.title }}</h1>
-  <p class="post-date">
-    {{ page.date | date_to_long_string: "ordinal" }} - {{ site.author }}
-  </p>
 
   <div class="post-content">{{ content }}</div>
 
