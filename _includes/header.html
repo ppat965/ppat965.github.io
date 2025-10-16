@@ -3,10 +3,15 @@
     <img
       src="{{ 'assets/images/logo.png'| relative_url }}"
       alt="logo"
-      height="60px"
       class="site-logo-head"
     />
     <h1 class="site-title">{{ site.title }}</h1>
+  </div>
+  <div class="alt-nav">
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-xmark"></i>
+    </button>
   </div>
   <ul class="nav">
     <li><a href="/about">About</a></li>
