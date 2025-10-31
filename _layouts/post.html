@@ -16,11 +16,11 @@ layout: default
 
   <div class="post-content">{{ content }}</div>
 
+  <p class="post-signoff">Until next time 👋</p>
+
   {% if page.categories %}
   <div class="post-category">
     <span class="category-label">{{ page.categories | join: ", " }}</span>
   </div>
   {% endif %}
-
-  <p class="post-signoff">Until next time 👋</p>
 </article>

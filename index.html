@@ -3,22 +3,28 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Welcome
 nav_order: 1
 ---
 
-# Welcome to my site!
+<div class="hero">
+  <h1>Welcome to my site!</h1>
+  <p>This is the main page. Check out the sections in the top nav bar.</p>
+</div>
 
-This is the main page. Check out the sections in the top nav bar.
+<h2>Latest Posts</h2>
 
 <ul class="post-list">
   {% for post in site.posts %}
   <li class="post-item">
     {% if post.image %}
-    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="thumb">
+    <img
+      src="{{ post.image | relative_url }}"
+      alt="{{ post.title }}"
+      class="thumb"
+    />
     {% endif %}
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <b>{{ post.date |  date_to_long_string: "ordinal" }}</b>
+    <b>{{ post.date | date_to_long_string: "ordinal" }}</b>
     <p class="excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
   </li>
   {% endfor %}

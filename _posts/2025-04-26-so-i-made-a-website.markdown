@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
+title: "So I made a website"
 date: 2025-04-26 20:42:58 +1200
 categories: projects
 ---

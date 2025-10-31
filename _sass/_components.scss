@@ -1,0 +1,18 @@
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  margin-bottom: 2rem;
+  text-align: center;
+  background-color: var(--azure-web);
+}
+
+.post-item .thumb {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}

@@ -2,18 +2,27 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-
-{{ content }}
+<div class="hero">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</div>
 
 <h2>Posts</h2>
-<ul>
+<ul class="post-list">
   {%- assign posts_in_category = site.posts | where: "categories",
   page.short_name | sort: "date" | reverse -%} {%- for post in posts_in_category
   -%}
-  <li>
-    <a href="{{ post.url | relative_url }}"> {{ post.title }} </a> –
-    <span>{{ post.date | date_to_long_string: "ordinal" }}</span>
+  <li class="post-item">
+    {% if post.image %}
+    <img
+      src="{{ post.image | relative_url }}"
+      alt="{{ post.title }}"
+      class="thumb"
+    />
+    {% endif %}
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <b>{{ post.date | date_to_long_string: "ordinal" }}</b>
+    <p class="excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
   </li>
   {%- endfor -%}
 </ul>

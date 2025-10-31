@@ -148,6 +148,28 @@ hr.style-horizontal {
   }
 }
 
+/* === Layout === */
+
+.hero {
+  background-color: var(--tiffany-blue);
+  color: black;
+  border-radius: 8px;
+
+  max-width: 800px; /* prevents stretching too wide on big screens */
+  width: 80%; /* takes up most of smaller screens */
+  margin: 2rem auto; /* centers horizontally + adds vertical spacing */
+  padding: 2rem; /* internal space for breathing room */
+
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional subtle depth */
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(1.8rem, 2.5vw, 3rem);
+  color: var(--caribbean-current);
+}
+
 /* === FOOTER === */
 
 .footer {
