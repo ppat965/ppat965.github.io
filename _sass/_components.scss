@@ -1,18 +1,79 @@
+.hero {
+  background-color: var(--tiffany-blue);
+  color: black;
+  border-radius: 8px;
+
+  max-width: 800px; /* prevents stretching too wide on big screens */
+  width: 80%; /* takes up most of smaller screens */
+  margin: 2rem auto; /* centers horizontally + adds vertical spacing */
+  padding: 2rem; /* internal space for breathing room */
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional subtle depth */
+  border: 2px solid var(--moonstone);
+}
+
+.hero h1,
+.post-wrapper h1 {
+  margin: 0 0 1rem 0; /* top=0 to align, bottom spacing only */
+  font-size: clamp(1.8rem, 2.5vw, 3rem);
+  color: var(--caribbean-current);
+}
+
+.post-wrapper {
+  max-width: 900px; /* prevents stretching too wide on big screens */
+  width: 80%; /* takes up most of smaller screens */
+  margin: 2rem auto;
+  text-align: center;
+  padding: 2rem;
+}
+
 .post-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .post-item {
+  display: flex;
+  align-items: flex-start; /* vertically centers image + text */
+  gap: 1.5rem; /* space between image and text */
   margin-bottom: 2rem;
-  text-align: center;
   background-color: var(--azure-web);
+  border-radius: 10px;
+  border: 2px solid var(--moonstone);
+  padding: 1rem 2rem;
+  max-width: 800px;
+  width: 80%;
+  margin-inline: auto; /* centers horizontally */
 }
 
 .post-item .thumb {
-  width: 100%;
-  max-width: 600px;
+  /*Image*/
+  flex-shrink: 0; /* prevents image from shrinking */
+  width: 200px;
   height: auto;
   border-radius: 10px;
-  margin-bottom: 0.5rem;
+}
+
+.post-content {
+  flex: 1; /* text takes remaining space */
+  text-align: left;
+}
+
+.post-content h2 {
+  margin-bottom: 0.25rem;
+}
+
+.post-content h2 a {
+  color: var(--caribbean-current);
+  text-decoration: none;
+}
+
+.post-content p {
+  margin-top: 0.5rem;
+}
+
+.post-content date {
+  margin-bottom: 0.25rem; /* reduce bottom gap if needed */
 }

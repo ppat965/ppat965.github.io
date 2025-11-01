@@ -11,21 +11,26 @@ nav_order: 1
   <p>This is the main page. Check out the sections in the top nav bar.</p>
 </div>
 
-<h2>Latest Posts</h2>
+<div class="post-wrapper">
+    <h1>Latest Posts</h1>
 
-<ul class="post-list">
-  {% for post in site.posts %}
-  <li class="post-item">
-    {% if post.image %}
-    <img
-      src="{{ post.image | relative_url }}"
-      alt="{{ post.title }}"
-      class="thumb"
-    />
-    {% endif %}
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <b>{{ post.date | date_to_long_string: "ordinal" }}</b>
-    <p class="excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-  </li>
-  {% endfor %}
-</ul>
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li class="post-item">
+        {% if post.image %}
+        <img
+          src="{{ post.image | relative_url }}"
+          alt="{{ post.title }}"
+          class="thumb"
+        />
+        {% endif %}
+      <div class="post-content">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <b class ="date">{{ post.date | date_to_long_string: "ordinal" }}</b>
+        <p class="excerpt">{{ post.excerpt | strip_html | truncate: 300 }}</p>
+      </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
