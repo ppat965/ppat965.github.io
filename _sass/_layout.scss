@@ -148,8 +148,21 @@ hr.style-horizontal {
   }
 }
 
-/* === FOOTER === */
+/* === Layout === */
+body.layout-page {
+  background-color: var(--tiffany-blue);
+}
 
+article.page-content {
+  background-color: var(--white);
+  max-width: 800px;
+  width: 90%;
+  padding: 1rem 2rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+/* === FOOTER === */
 .footer {
   background-color: var(--caribbean-current);
   text-align: center;

@@ -1,3 +1,20 @@
+article.post {
+  background-color: var(--white);
+  max-width: 800px;
+  width: 90%;
+  padding: 1rem 2rem;
+  margin-inline: auto;
+}
+
+section.top {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.top h1 {
+  margin-bottom: 0.25rem;
+}
+
 .post-image {
   text-align: center;
   margin-bottom: 1rem;
@@ -6,10 +23,46 @@
 .post-image img {
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
-.post-category {
+/* Ensure Markdown images match the .post-image style */
+.post-content img {
+  display: block; /* ensures centering works properly */
+  margin: 0 auto 1rem auto; /* centers + adds space below */
+  max-width: 100%; /* responsive width, same as main image */
+  height: auto;
+  border-radius: 10px; /* same rounding as .post-image img */
+  text-align: center; /* just for good measure */
+}
+
+.post-content figure {
+  display: block;
+  margin: 2rem auto; /* centers + adds breathing room */
+  text-align: center; /* centers the image & caption */
+  max-width: 800px; /* same width as your post/hero */
+  width: 90%; /* responsive scaling */
+}
+
+/* Style the image inside a figure */
+.post-content figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* match main image corners */
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* optional subtle depth */
+}
+
+/* Style the caption under the image */
+.post-content figure figcaption {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.bottom {
   text-align: center;
   margin-top: 2rem;
 }
@@ -23,4 +76,5 @@
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  margin-bottom: 2rem;
 }

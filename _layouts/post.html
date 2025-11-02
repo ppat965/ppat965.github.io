@@ -2,25 +2,27 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<p class="post-date">
-  {{ page.date | date_to_long_string: "ordinal" }} - {{ site.author }}
-</p>
+<body class="layout-page">
+  <article class="post">
+    <section class="top">
+      <h1>{{ page.title }}</h1>
+      <b>{{ page.date | date_to_long_string: "ordinal" }}</b>
+    </section>
+    {% if page.image %}
+    <div class="post-image">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
+    </div>
+    {% endif %}
 
-<article class="post">
-  {% if page.image %}
-  <div class="post-image">
-    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
-  </div>
-  {% endif %}
+    <div class="post-content">{{ content }}</div>
 
-  <div class="post-content">{{ content }}</div>
-
-  <p class="post-signoff">Until next time 👋</p>
-
-  {% if page.categories %}
-  <div class="post-category">
-    <span class="category-label">{{ page.categories | join: ", " }}</span>
-  </div>
-  {% endif %}
-</article>
+    <section class="bottom">
+      <p class="post-signoff">Until next Time!</p>
+      {% if page.categories %}
+      <div class="post-category">
+        <span class="category-label">{{ page.categories | join: ", " }}</span>
+      </div>
+      {% endif %}
+    </section>
+  </article>
+</body>

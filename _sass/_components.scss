@@ -16,7 +16,7 @@
 .hero h1,
 .post-wrapper h1 {
   margin: 0 0 1rem 0; /* top=0 to align, bottom spacing only */
-  font-size: clamp(1.8rem, 2.5vw, 3rem);
+  font-size: clamp(1.8em, 2.5vw, 3em);
   color: var(--caribbean-current);
 }
 
@@ -76,4 +76,17 @@
 
 .post-content date {
   margin-bottom: 0.25rem; /* reduce bottom gap if needed */
+}
+
+@media (max-width: 600px) {
+  .post-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .post-item .thumb {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
 }
