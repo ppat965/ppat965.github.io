@@ -1,9 +1,10 @@
 article.post {
   background-color: var(--white);
   max-width: 800px;
-  width: 90%;
+  width: min(90%, 800px);
   padding: 1rem 2rem;
   margin-inline: auto;
+  box-sizing: border-box;
 }
 
 section.top {

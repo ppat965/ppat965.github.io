@@ -1,3 +1,13 @@
+.header,
+.footer,
+.wrapper,
+.page-content {
+  margin-inline: auto; /* centers horizontally */
+  width: 100%; /* prevents shrinking */
+  max-width: 100%; /* ensures they don’t overflow */
+  box-sizing: border-box; /* includes padding in width calculations */
+}
+
 /*=== Header Container ===*/
 .header {
   padding: 0rem;
@@ -149,6 +159,10 @@ hr.style-horizontal {
 }
 
 /* === Layout === */
+.wrapper {
+  padding: 0;
+}
+
 body.layout-page {
   background-color: var(--tiffany-blue);
 }
@@ -175,4 +189,49 @@ article.page-content {
   padding: 0.5rem;
   margin: 0rem;
   height: 1.875rem;
+}
+
+.contact {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(0.5rem, #{"3vw"}, 2rem);
+  text-align: center;
+  margin-inline: auto; /* centers horizontally */
+  padding-inline: 0; /* consistent with other centered items */
+  width: fit-content;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  text-align: center;
+}
+
+.contact-card a {
+  text-decoration: none;
+  color: var(--white);
+  margin: 0.25rem 0;
+  font-size: 1.2rem;
+}
+
+.contact-card a.link {
+  color: var(--white);
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+.contact-card a:hover {
+  text-decoration: none;
+  color: var(--moonstone);
+}
+
+@media (max-width: 600px) {
+  .contact-card a.link {
+    display: none;
+  }
 }

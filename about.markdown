@@ -12,4 +12,4 @@ Website name is a hybrid between a web portfolio and creative journal. The websi
 
 If that sounds interesting to you have a look around, if you want to reach out to me such as to yell at me for being wrong! Feel free to do so through linkedin, github or discord (I am not on Twitter or whatever Elon calls it now).
 
-Until next time!
+Until next Time!
