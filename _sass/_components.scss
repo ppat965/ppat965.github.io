@@ -36,7 +36,7 @@
 
 .post-item {
   display: flex;
-  align-items: flex-start; /* vertically centers image + text */
+  align-items: center; /* vertically centers image + text */
   gap: 1.5rem; /* space between image and text */
   margin-bottom: 2rem;
   background-color: var(--azure-web);
@@ -51,7 +51,7 @@
 .post-item .thumb {
   /*Image*/
   flex-shrink: 0; /* prevents image from shrinking */
-  width: 200px;
+  width: 250px;
   height: auto;
   border-radius: 10px;
 }
@@ -79,14 +79,21 @@
 }
 
 @media (max-width: 600px) {
+  
   .post-item {
     flex-direction: column;
     align-items: flex-start;
+    gap:.5rem;
   }
+
+.post-content h2 {
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
 
   .post-item .thumb {
     width: 100%;
     max-width: 300px;
-    margin-bottom: 1rem;
+    margin-bottom: .2rem;
   }
 }

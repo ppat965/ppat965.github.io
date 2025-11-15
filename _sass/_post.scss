@@ -22,7 +22,7 @@ section.top {
 }
 
 .post-image img {
-  max-width: 100%;
+  max-width: 62.5%;
   height: auto;
   border-radius: 10px;
 }
@@ -31,10 +31,25 @@ section.top {
 .post-content img {
   display: block; /* ensures centering works properly */
   margin: 0 auto 1rem auto; /* centers + adds space below */
-  max-width: 100%; /* responsive width, same as main image */
+  max-width: 62.5%; /* responsive width, same as main image */
   height: auto;
   border-radius: 10px; /* same rounding as .post-image img */
   text-align: center; /* just for good measure */
+}
+
+/* Detect portrait images and control their maximum height */
+@media (max-width: 900px) {
+  .post-content img {
+    max-width: 75%;       /* slightly larger but still controlled */
+  }
+}
+
+/* On desktop, cap portrait height so it never dominates the viewport */
+@media (min-width: 900px) {
+  .post-content img {
+    max-height: 60vh;     /* never taller than the screen */
+    width: auto;
+  }
 }
 
 .post-content figure {
@@ -47,7 +62,7 @@ section.top {
 
 /* Style the image inside a figure */
 .post-content figure img {
-  max-width: 100%;
+  max-width: 62.5%;
   height: auto;
   border-radius: 10px; /* match main image corners */
   display: block;

@@ -176,6 +176,12 @@ article.page-content {
   text-align: center;
 }
 
+article.page-content img {
+  max-width: 62.5%;
+  height: auto;
+  border-radius: 10px;
+}
+
 /* === FOOTER === */
 .footer {
   background-color: var(--caribbean-current);
