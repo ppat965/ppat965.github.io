@@ -1,5 +1,5 @@
 .hero {
-  background-color: var(--tiffany-blue);
+  background-color: var(--hero);
   color: black;
   border-radius: 8px;
 
@@ -10,14 +10,14 @@
   box-sizing: border-box;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional subtle depth */
-  border: 2px solid var(--moonstone);
+  border: 2px solid var(--accents);
 }
 
 .hero h1,
 .post-wrapper h1 {
   margin: 0 0 1rem 0; /* top=0 to align, bottom spacing only */
   font-size: clamp(1.8em, 2.5vw, 3em);
-  color: var(--caribbean-current);
+  color: var(--banner);
 }
 
 .post-wrapper {
@@ -39,9 +39,9 @@
   align-items: center; /* vertically centers image + text */
   gap: 1.5rem; /* space between image and text */
   margin-bottom: 2rem;
-  background-color: var(--azure-web);
+  background-color: var(--secondary);
   border-radius: 10px;
-  border: 2px solid var(--moonstone);
+  border: 2px solid var(--accents);
   padding: 1rem 2rem;
   max-width: 800px;
   width: 80%;
@@ -66,8 +66,13 @@
 }
 
 .post-content h2 a {
-  color: var(--caribbean-current);
+  color: var(--banner);
   text-decoration: none;
+}
+
+.post-content h2 a:hover {
+  text-decoration: none;
+  color: var(--accents);
 }
 
 .post-content p {
