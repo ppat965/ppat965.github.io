@@ -18,7 +18,7 @@ I knew Lorde had a new album out, but I hadn’t listened to it when she announc
 
 ## New Album
 
-It was after buying the tickets that I listened to the album, and I liked it. It was a bit more mature and similar to Melodrama; for example, I feel like What was That reminds me of Greenlight. The album is 20 minutes long, and I haven’t listened to it enough to pick a favourite or rank them, but I like What was That, Hammer, Favourite Daughter, GRWM, Broken Glass, Current Affairs, and Supercut. Maybe I like the whole album, don’t judge me. I was well-prepared and really looking forward to hearing Broken Glass live.
+It was after buying the tickets that I listened to the album, and I liked it. It was a bit more mature and similar to Melodrama; for example, I feel like What was That reminds me of Greenlight. The album is 20 minutes long, and I haven’t listened to it enough to pick a favourite or rank them, but I like What was That, Hammer, Favourite Daughter, GRWM, Broken Glass,and Current Affairs. Maybe I like the whole album, don’t judge me. I was well-prepared and really looking forward to hearing Broken Glass live.
 
 ## Concert Day
 
