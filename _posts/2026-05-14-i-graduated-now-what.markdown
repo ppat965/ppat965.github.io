@@ -2,7 +2,7 @@
 layout: post
 title: "I graduated, now what?"
 date: 2026-05-14 20:42:58 +1200
-categories: experiences
+categories: reflections
 image: /assets/images/graduation.png
 ---
 
