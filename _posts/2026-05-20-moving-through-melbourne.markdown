@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Moving in Melbourne"
+title: "Moving through Melbourne"
 date: 2026-05-20 20:42:58 +1200
 categories: experiences
 image: /assets/images/melbourne.png
